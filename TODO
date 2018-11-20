@@ -1,0 +1,7 @@
+filegate push file.go
+filegate push folder
+filegate pull alpha-bravo-delta -o file_2.go
+filegate pull alpha-bravo-delta -o folder2
+filegate pull alpha-bravo-delta
+
+-e ICE endpoint
