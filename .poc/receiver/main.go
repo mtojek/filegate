@@ -5,12 +5,13 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
+	"os"
+	"time"
+
 	"github.com/pions/webrtc"
 	"github.com/pions/webrtc/examples/util"
 	"github.com/pions/webrtc/pkg/datachannel"
 	"github.com/pions/webrtc/pkg/ice"
-	"os"
-	"time"
 )
 
 func main() {
