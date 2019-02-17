@@ -24,7 +24,13 @@ Options:
 
 // Run method executes the command.
 func (c *SignalCommand) Run(args []string) int {
-
+	// TODO Start HTTP server
+	// TODO Wait for QUIT signal
+	// TODO On sender connect:
+	// TODO     1. Sender gives his public key: create a link code ~chat room
+	// TODO		2. Destroy a link code if the sender disconnects
+	// TODO     3. Receiver requests resource with a link-code, give back the sender's public key
+	// TODO		4. Server proxies encrypted "chat"
 	return 0
 }
 
